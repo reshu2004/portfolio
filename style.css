@@ -867,6 +867,10 @@ body.light .celestial-btn {
   animation: charReveal 0.3s cubic-bezier(.4,0,.2,1) forwards;
 }
 
+.hero-name .char.space {
+  min-width: 0.35em;
+}
+
 @keyframes charFlicker {
   0%   { opacity: 1;   transform: skewX(0deg); }
   25%  { opacity: 0.4; transform: skewX(-8deg) scaleY(1.1); color: #0ff; }
